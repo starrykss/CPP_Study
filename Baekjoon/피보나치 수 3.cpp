@@ -20,10 +20,10 @@ int main() {
 #include <iostream>
 using namespace std;
 
-// 2749¹ø: ÇÇº¸³ªÄ¡ ¼ö 3
-// ÇÇº¸³ªÄ¡ ¼ö´Â ¾îÂ÷ÇÇ ¾Õ µÎ Ç×ÀÇ ÇÕÀ¸·Î µÞÇ×ÀÌ °áÁ¤µÈ´Ù.
-// (a+b) mod c = ( a mod c + b mod c ) mod c ÀÓÀ» ÀÌ¿ëÇÏ¿© Ç®À½
-// k(10^n) = 15¡¿10^(n-1), 1500000
+// 2749ë²ˆ: í”¼ë³´ë‚˜ì¹˜ ìˆ˜ 3
+// í”¼ë³´ë‚˜ì¹˜ ìˆ˜ëŠ” ì–´ì°¨í”¼ ì•ž ë‘ í•­ì˜ í•©ìœ¼ë¡œ ë’·í•­ì´ ê²°ì •ëœë‹¤.
+// (a+b) mod c = ( a mod c + b mod c ) mod c ìž„ì„ ì´ìš©í•˜ì—¬ í’€ìŒ
+// k(10^n) = 15Ã—10^(n-1), 1500000
 
 const int milion_pp = 1500000;
 int mod_fibo[milion_pp] = { 0,1 };
