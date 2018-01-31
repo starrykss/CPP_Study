@@ -15,7 +15,7 @@ int main() {
 }
 */
 
-// Ʋ��
+// Æ²¸²
 /*
 #include <iostream>
 #include <cmath>		// pow()
