@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-	char num[13] = " ";		// 1,000,000,000 ÀÌÇÏÀÎ ¼ö
+	char num[13] = " ";		// 1,000,000,000 Ã€ÃŒÃ‡ÃÃ€Ã Â¼Ã¶
 	int len;
 
 	cin >> num;
@@ -15,7 +15,7 @@ int main()
 
 	for (int i = 0; i < len - 1; i++) {
 		for (int j = i + 1; j < len; j++) {
-			if (num[i] < num[j]) {     // ³»¸²Â÷¼ø Á¤·Ä
+			if (num[i] < num[j]) {     // Â³Â»Â¸Â²Ã‚Ã·Â¼Ã¸ ÃÂ¤Â·Ã„
 				int tmp = num[i];
 				num[i] = num[j];
 				num[j] = tmp;
