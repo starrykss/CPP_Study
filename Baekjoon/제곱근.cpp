@@ -1,5 +1,5 @@
 /*
-// ¹ÌÇØ°á
+// Â¹ÃŒÃ‡Ã˜Â°Ã¡
 #include <iostream>
 #include <string>		// stoi()
 #include <cmath>		// sqrt()
