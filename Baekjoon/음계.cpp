@@ -16,10 +16,10 @@ int main()
 	// checking order
 	for (int i = 0; i < N - 1; i++) {
 		for (int j = i + 1; j < N; j++) {
-			if (ary[j] < ary[i]) {		// ³»¸² Â÷¼øÀÏ °æ¿ì
+			if (ary[j] < ary[i]) {		// ë‚´ë¦¼ ì°¨ìˆœì¼ ê²½ìš°
 				isDescending = 1;
 			}
-			else if (ary[j] > ary[i]) {	// ¿À¸§ Â÷¼øÀÏ °æ¿ì
+			else if (ary[j] > ary[i]) {	// ì˜¤ë¦„ ì°¨ìˆœì¼ ê²½ìš°
 				isAscending = 1;
 			}
 		}
