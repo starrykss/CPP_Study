@@ -1,5 +1,5 @@
 /*
-//´Ù ´õÇØ¼­ µÎ°³¸¦ –PÀ»¶§ 100ÀÌ µÇ´Â °Í À¸·Î ¹Ù²Ù¸éµÊ
+//ë‹¤ ë”í•´ì„œ ë‘ê°œë¥¼ Â–Pì„ë•Œ 100ì´ ë˜ëŠ” ê²ƒ ìœ¼ë¡œ ë°”ê¾¸ë©´ë¨
 
 #include<iostream>
 #include<algorithm>
@@ -8,7 +8,7 @@ using namespace std;
 #define N 9
 #define MAX 100
 
-//¾ÆÈ© ³­ÀïÀÌ Å° °ªÀÇ ÇÕÀ» ¸®ÅÏÇÏ´Â ÇÔ¼ö
+//ì•„í™‰ ë‚œìŸì´ í‚¤ ê°’ì˜ í•©ì„ ë¦¬í„´í•˜ëŠ” í•¨ìˆ˜
 int GetSum(const int *arr) {
 	int sum = 0;
 	for (int i = 0; i<N; i++) {
@@ -17,7 +17,7 @@ int GetSum(const int *arr) {
 	return sum;
 }
 
-//¾ÆÈ© ³­ÀïÀÌ Å° °ª¿¡¼­ µÎ¸íÀÇ ³­ÀïÀÌÀÇ Å°¸¦ –A ÇÕÀÌ 100ÀÎ °ÍÀ» ÆÇº°
+//ì•„í™‰ ë‚œìŸì´ í‚¤ ê°’ì—ì„œ ë‘ëª…ì˜ ë‚œìŸì´ì˜ í‚¤ë¥¼ Â–A í•©ì´ 100ì¸ ê²ƒì„ íŒë³„
 int Solution(int *arr) {
 	int sum = GetSum(arr);
 
@@ -36,18 +36,18 @@ int Solution(int *arr) {
 
 int main(void) {
 
-	//ÀÔ·Â
+	//ì…ë ¥
 	int arr[N];
 	for (int i = 0; i<N; i++) {
 		cin >> arr[i];
 	}
 
 
-	Solution(arr);  //¾Ë°í¸®Áò
+	Solution(arr);  //ì•Œê³ ë¦¬ì¦˜
 
-	sort(arr, arr + N); //¿À¸§Â÷¼øÀ¸·Î Á¤·Ä
+	sort(arr, arr + N); //ì˜¤ë¦„ì°¨ìˆœìœ¼ë¡œ ì •ë ¬
 
-	//Ãâ·Â
+	//ì¶œë ¥
 	for (int i = 2; i<N; i++) {
 		cout << arr[i] << endl;
 	}
@@ -55,7 +55,7 @@ int main(void) {
 	return 0;
 }
 */
-// ½ÇÆĞ
+// ì‹¤íŒ¨
 /*
 #include <iostream>
 #include <algorithm>	// sort()
@@ -72,7 +72,7 @@ int main()
 		cin >> height[i];
 	}
 
-	sort(height, height + 9);		// ¿À¸§Â÷¼ø Á¤·Ä
+	sort(height, height + 9);		// ì˜¤ë¦„ì°¨ìˆœ ì •ë ¬
 
 	for (int i = 0; i < 9; i++) {
 		tot += height[i];
