@@ -11,12 +11,12 @@ int main()
 	char sen[N];
 	int len = 0, flag = 0;
 
-	cin.getline(sen, N);	// °ø¹éÀ» Æ÷ÇÔÇÑ ¹®ÀåÀÇ ÀÔ·Â ¹Ş±â.
+	cin.getline(sen, N);	// ê³µë°±ì„ í¬í•¨í•œ ë¬¸ì¥ì˜ ì…ë ¥ ë°›ê¸°.
 	len = strlen(sen);
 
-	if (sen[0] != ' ') flag++;	// Ã³À½ ºÎºĞ¿¡ °ø¹éÀÌ ¾øÀ» °æ¿ì 
+	if (sen[0] != ' ') flag++;	// ì²˜ìŒ ë¶€ë¶„ì— ê³µë°±ì´ ì—†ì„ ê²½ìš° 
 	for (int i = 1; i < len; i++) {
-		if ((sen[i] != ' ') && (sen[i - 1] == ' ')) flag++;	// '_(´Ü¾î)'ÀÎ °æ¿ì
+		if ((sen[i] != ' ') && (sen[i - 1] == ' ')) flag++;	// '_(ë‹¨ì–´)'ì¸ ê²½ìš°
 	}
 
 	cout << flag << endl;
