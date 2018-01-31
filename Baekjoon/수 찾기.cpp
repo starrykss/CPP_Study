@@ -1,4 +1,4 @@
-// ºĞÇÒ Á¤º¹ ÀÌ¿ë
+// ë¶„í•  ì •ë³µ ì´ìš©
 /*
 #define _CRT_SECURE_NO_WARNINGS
  
@@ -30,7 +30,7 @@ int main()
         int t;
         scanf("%d", &t);
  
-        //ºĞÇÒ Á¤º¹?
+        //ë¶„í•  ì •ë³µ?
         if (t < arr[0])
         {
             cout << 0 << endl;
@@ -77,7 +77,7 @@ int main()
 }
 */
 
-// ÀÌÁø Å½»ö
+// ì´ì§„ íƒìƒ‰
 /*
 #include <iostream>
 #include <string>
@@ -106,7 +106,7 @@ int main()
 }
 */
 
-// ½Ã°£ ÃÊ°ú
+// ì‹œê°„ ì´ˆê³¼
 /*
 #include <iostream>
 #include <vector>
@@ -132,14 +132,14 @@ int main()
 
 	for (int i = 0; i < m; i++) {
 		for (int j = 0; j < n; j++) {
-			if (ary1[j] == ary2[i]) {		// ÀÏÄ¡ÇÏ´Â ¼ö°¡ ÀÖÀ» °æ¿ì
-				cnt++;	// cnt 1 Áõ°¡
-				result.push_back(1);	// º¤ÅÍ¿¡ 1 »ğÀÔ
-				break;		// ary2 ¹İº¹¹® Á¾·á
+			if (ary1[j] == ary2[i]) {		// ì¼ì¹˜í•˜ëŠ” ìˆ˜ê°€ ìˆì„ ê²½ìš°
+				cnt++;	// cnt 1 ì¦ê°€
+				result.push_back(1);	// ë²¡í„°ì— 1 ì‚½ì…
+				break;		// ary2 ë°˜ë³µë¬¸ ì¢…ë£Œ
 			}
 		}
-		if (cnt == 0) {	// cnt°¡ 0ÀÏ °æ¿ì. -> ÀÏÄ¡ÇÏ´Â ¼ö°¡ ¾øÀ» °æ¿ì
-			result.push_back(0);	// º¤ÅÍ¿¡ 0 »ğÀÔ
+		if (cnt == 0) {	// cntê°€ 0ì¼ ê²½ìš°. -> ì¼ì¹˜í•˜ëŠ” ìˆ˜ê°€ ì—†ì„ ê²½ìš°
+			result.push_back(0);	// ë²¡í„°ì— 0 ì‚½ì…
 		}
 		cnt = 0;
 	}
