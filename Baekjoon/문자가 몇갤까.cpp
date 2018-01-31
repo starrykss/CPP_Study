@@ -2,7 +2,7 @@
 #include <iostream>
 #include <cstring>	// strlen()
 
-#define N 252	// ÁÙ¹Ù²Ş ¹®ÀÚ¸¦ »ı°¢ÇØ¼­ ±æÀÌ¸¦ Á¤ÇØÁà¾ß ÇÔ.
+#define N 252	// ì¤„ë°”ê¿ˆ ë¬¸ìë¥¼ ìƒê°í•´ì„œ ê¸¸ì´ë¥¼ ì •í•´ì¤˜ì•¼ í•¨.
 
 using namespace std;
 
