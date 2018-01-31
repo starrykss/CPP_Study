@@ -13,7 +13,7 @@ int main()
 		sort(num, num + 3);
 
 		if ((num[0] != 0) && (num[1] != 0) && (num[2] != 0)) {
-			if (num[2] >= num[0] + num[1]) {		// »ï°¢Çü ¼º¸³ Á¶°Ç : °¡Àå Å« º¯ÀÇ ±æÀÌ <= ´Ù¸¥ µÎ º¯ÀÇ ±æÀÌÀÇ ÇÕ
+			if (num[2] >= num[0] + num[1]) {		// ì‚¼ê°í˜• ì„±ë¦½ ì¡°ê±´ : ê°€ìž¥ í° ë³€ì˜ ê¸¸ì´ <= ë‹¤ë¥¸ ë‘ ë³€ì˜ ê¸¸ì´ì˜ í•©
 				cout << "Invalid" << endl;
 			}
 			else {
