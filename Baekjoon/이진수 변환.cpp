@@ -3,7 +3,7 @@
 
 using namespace std;
 
-// Àç±Í ÇÔ¼ö »ç¿ë
+// Ã€Ã§Â±Ã Ã‡Ã”Â¼Ã¶ Â»Ã§Â¿Ã«
 void DectoBin(unsigned long long a)
 {
 	if (a != 1) DectoBin(a / 2);
