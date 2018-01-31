@@ -1,7 +1,7 @@
 /*
 #include <iostream>
 #include <algorithm>	// sort()
-#include <functional>	// ³»¸²Â÷¼ø
+#include <functional>	// ë‚´ë¦¼ì°¨ìˆœ
 
 #define N 51
 
@@ -20,8 +20,8 @@ int main()
 		tmp[i] = cmp[i];
 	}
 
-	sort(ary, ary + n);	// ¿À¸§Â÷¼ø Á¤·Ä
-	sort(cmp, cmp + n, greater<int>());	// ³»¸²Â÷¼ø Á¤·Ä
+	sort(ary, ary + n);	// ì˜¤ë¦„ì°¨ìˆœ ì •ë ¬
+	sort(cmp, cmp + n, greater<int>());	// ë‚´ë¦¼ì°¨ìˆœ ì •ë ¬
 
 	for (int i = 0; i < n; i++) {
 		sum += ary[i] * cmp[i];
