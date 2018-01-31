@@ -55,7 +55,7 @@ int main() {
 	printf("%d",(ans>=n-1?n-1:ans)+1);
 }
 */
-/* �ð� �ʰ�
+/* ½Ã°£ ÃÊ°ú
 #include <iostream>
 
 #define N 500000
