@@ -9,7 +9,7 @@ int main()
 
 	cin >> n;
 
-	// n¹ø µ¿¾È a¿Í b¸¦ swapÇÏ¿© ´õÇÑ ¼ö¸¦ b¿¡ ÀúÀå. 
+	// në²ˆ ë™ì•ˆ aì™€ bë¥¼ swapí•˜ì—¬ ë”í•œ ìˆ˜ë¥¼ bì— ì €ìž¥. 
 	// 0 1 1 2 3 5 8 13 21 34 ...
 	for (int i = 0; i < n - 1; ++i) {
 		int tmp = b;
@@ -29,7 +29,7 @@ using namespace std;
 
 int cache[50];
 
-// ÇÇº¸³ªÄ¡ Á¡È­½Ä Fn = Fn-1 + Fn-2
+// í”¼ë³´ë‚˜ì¹˜ ì í™”ì‹ Fn = Fn-1 + Fn-2
 int fibo(int n)
 {
 	if (n < 2)
@@ -48,7 +48,7 @@ int main()
 	cout << fibo(n) << endl;
 }
 */
-// ½Ã°£ ÃÊ°ú
+// ì‹œê°„ ì´ˆê³¼
 /*
 #include <iostream>
 
