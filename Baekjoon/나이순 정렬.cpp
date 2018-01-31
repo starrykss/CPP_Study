@@ -47,7 +47,7 @@ int main()
 }
 */
 
-// ½Ã°£ ÃÊ°ú
+// ì‹œê°„ ì´ˆê³¼
 /*
 #include <vector>
 #include <algorithm>
@@ -78,7 +78,7 @@ int main() {
 /*
 #include <iostream>
 #include <vector>
-#include <string>		// stringÀ» cinÀ¸·Î ¹Ş±â À§ÇØ ÇÊ¿äÇÔ.
+#include <string>		// stringì„ cinìœ¼ë¡œ ë°›ê¸° ìœ„í•´ í•„ìš”í•¨.
 #include <algorithm>	// sort()
 
 using namespace std;
@@ -124,7 +124,7 @@ int main()
 	}
 	*/
 
-// ½Ã°£ ÃÊ°ú
+// ì‹œê°„ ì´ˆê³¼
 /*
 #include <iostream>
 
@@ -143,7 +143,7 @@ int main()
 {
 	int n;
 	person P[100000];
-	person tmp;		// Á¤·ÄÇÒ ¶§ ¿Å±æ °ª ÀúÀåÇØ ÁÙ ±¸Á¶Ã¼ ¼±¾ğ.
+	person tmp;		// ì •ë ¬í•  ë•Œ ì˜®ê¸¸ ê°’ ì €ì¥í•´ ì¤„ êµ¬ì¡°ì²´ ì„ ì–¸.
 
 	cin >> n;
 
@@ -151,10 +151,10 @@ int main()
 		cin >> P[i].age >> P[i].name;
 	}
 
-	// ±¸Á¶Ã¼ ³»¿ë ¿À¸§Â÷¼ø Á¤·Ä
+	// êµ¬ì¡°ì²´ ë‚´ìš© ì˜¤ë¦„ì°¨ìˆœ ì •ë ¬
 	for (int i = 0; i < n; i++) {
 		for (int j = 0; j < n - 1; j++) {
-			if (P[j].age > P[j + 1].age) {		// ¿À¸§Â÷¼ø Á¤·Ä
+			if (P[j].age > P[j + 1].age) {		// ì˜¤ë¦„ì°¨ìˆœ ì •ë ¬
 				tmp = P[j];
 				P[j] = P[j + 1];
 				P[j + 1] = tmp;
