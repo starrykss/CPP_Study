@@ -15,13 +15,13 @@ int main()
 	cin >> n1 >> n2 >> n3;
 
 	mul = n1 * n2 * n3;
-	// Á¤¼ö¸¦ char Çü½ÄÀ¸·Î ÀüÈ¯
+	// ì •ìˆ˜ë¥¼ char í˜•ì‹ìœ¼ë¡œ ì „í™˜
 	sprintf(ary, "%d", mul);
 
 	len = strlen(ary);
 	for (int i = 0; i < 10; i++) {
 		for (int j = 0; j < len; j++) {
-			if (ary[j] == (i + '0'))		// int Çü -> char Çü º¯È¯
+			if (ary[j] == (i + '0'))		// int í˜• -> char í˜• ë³€í™˜
 				cnt++;
 		}
 		cout << cnt << endl;
