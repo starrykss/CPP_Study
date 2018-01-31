@@ -10,7 +10,7 @@ int main() {
 	return 0;
 }
 */
-// ½Ã°£ ÃÊ°ú
+// ì‹œê°„ ì´ˆê³¼
 /*
 #include <iostream>
 #include <cstdio>
@@ -24,12 +24,12 @@ int main()
 {
 	int n, ary[N];
 
-	scanf("%d", &n);	// cinº¸´Ù scanf°¡ ¼Óµµ ´õ ºü¸§.
+	scanf("%d", &n);	// cinë³´ë‹¤ scanfê°€ ì†ë„ ë” ë¹ ë¦„.
 	for (int i = 0; i < n; i++) {
 		scanf("%d", ary);
 	}
 
-	sort(ary, ary + n);	// O(N*log©üN)
+	sort(ary, ary + n);	// O(N*logâ‚‚N)
 
 	for (int i = 0; i < n; i++) {
 		printf("%d\n", ary[i]);
