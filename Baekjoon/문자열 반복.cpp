@@ -45,7 +45,7 @@ int main()
 		cin >> cnt[i] >> ary[i];
 	}
 
-	// ¿¹¿Ü Ã³¸® (ÀÔ·ÂµÈ ¹®Àå¿¡ ¼Ò¹®ÀÚ ¾ËÆÄºªÀÌ µé¾îÀÖÀ» °æ¿ì ÇÁ·Î±×·¥ Á¾·á)
+	// ì˜ˆì™¸ ì²˜ë¦¬ (ìž…ë ¥ëœ ë¬¸ìž¥ì— ì†Œë¬¸ìž ì•ŒíŒŒë²³ì´ ë“¤ì–´ìžˆì„ ê²½ìš° í”„ë¡œê·¸ëž¨ ì¢…ë£Œ)
 	for (int i = 0; i < num; i++) {
 		for (int j = 0; j < strlen(ary[i]); j++) {
 			if ((ary[i][j] >= 'a') && (ary[i][j] <= 'z')) return 0;
@@ -54,7 +54,7 @@ int main()
 
 	for (int i = 0; i < num; i++) {
 		while (1) {
-			for (int j = 0; j < cnt[i]; j++) {	// cnt ¸¸Å­ ¹Ýº¹
+			for (int j = 0; j < cnt[i]; j++) {	// cnt ë§Œí¼ ë°˜ë³µ
 				cout << ary[i][flag];
 			}
 			flag++;
