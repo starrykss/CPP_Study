@@ -16,11 +16,11 @@ int main()
 	len = strlen(input);
 	
 	for (int i = 0; i < len; i++) {
-		if (input[i] >= 97) {	// ¼Ò¹®ÀÚÀÌ¸é
-			input[i] = input[i] - 32;	// ´ë¹®ÀÚ·Î º¯È¯
+		if (input[i] >= 97) {	// ì†Œë¬¸ìì´ë©´
+			input[i] = input[i] - 32;	// ëŒ€ë¬¸ìë¡œ ë³€í™˜
 		}
-		else {		// ´ë¹®ÀÚÀÌ¸é
-			input[i] = input[i] + 32;	// ¼Ò¹®ÀÚ·Î º¯È¯
+		else {		// ëŒ€ë¬¸ìì´ë©´
+			input[i] = input[i] + 32;	// ì†Œë¬¸ìë¡œ ë³€í™˜
 		}
 	}
 
