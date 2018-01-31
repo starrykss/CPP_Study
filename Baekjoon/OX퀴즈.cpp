@@ -54,7 +54,7 @@ int main()
 		string str;
 		cin >> str;
 		int score = 0;
-        // ¿¬¼ÓµÇ¾ú´ø OÀÇ °¹¼ö¸¦ count ÇÑ´Ù
+        // ì—°ì†ë˜ì—ˆë˜ Oì˜ ê°¯ìˆ˜ë¥¼ count í•œë‹¤
 		int prev = 0;
 		for (int i = 0; i < str.size(); i++) {
 			if (str[i] == 'O')
