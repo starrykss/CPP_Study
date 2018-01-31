@@ -16,10 +16,10 @@ int main()
 		cin >> ary[i];
 	}
 
-	// 1. ¹è¿­ Á¤·Ä (Sorting Array) 
+	// 1. ë°°ì—´ ì •ë ¬ (Sorting Array) 
 	for (int i = 0; i < NUM - 1; i++) {
 		for (int j = i + 1; j < NUM; j++) {
-			if (ary[j] < ary[i]) {     // ¿À¸§Â÷¼ø Á¤·Ä (Sorting with Increasing Order)
+			if (ary[j] < ary[i]) {     // ì˜¤ë¦„ì°¨ìˆœ ì •ë ¬ (Sorting with Increasing Order)
 				tmp = ary[j];
 				ary[j] = ary[i];
 				ary[i] = tmp;
@@ -28,7 +28,7 @@ int main()
 	}
 
 
-	// 2. ¼ýÀÚ ºÐ·ù & °³¼ö ÆÄ¾Ç (Classification of the Numbers in Array & Grasping the Number of each Number in Array) 
+	// 2. ìˆ«ìž ë¶„ë¥˜ & ê°œìˆ˜ íŒŒì•… (Classification of the Numbers in Array & Grasping the Number of each Number in Array) 
 	a[0] = ary[0];
 
 	for (int i =1; i < NUM; i++) {
@@ -42,7 +42,7 @@ int main()
 
 	b[count - 1] = NUM - mark;
 
-	// °á°ú Ãâ·Â (Printing Out the Result) 
+	// ê²°ê³¼ ì¶œë ¥ (Printing Out the Result) 
 	cout << endl << "[RESULTS]" << endl << endl;
 	cout << "mark : " << mark << endl;
 	cout << "N : ";
