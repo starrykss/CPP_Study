@@ -6,7 +6,7 @@ int main() {
 	for (int i = 0; i < 7; i++)
 	{
 		cin >> num;
-		if (num % 2 == 1)//È¦¼öÀÏ¶§
+		if (num % 2 == 1)//í™€ìˆ˜ì¼ë•Œ
 		{
 			cnt++;
 			sum += num;
@@ -44,10 +44,10 @@ int main()
 		}
 	}
 
-	// ¹è¿­ Á¤·Ä (¹öºí Á¤·Ä)
+	// ë°°ì—´ ì •ë ¬ (ë²„ë¸” ì •ë ¬)
 	for (int s = 0; s < N - 1; s++) {
 		for (int t = s + 1; t < N; t++) {
-			if (ary[t] >= ary[s]) {     // ³»¸²Â÷¼ø Á¤·Ä
+			if (ary[t] >= ary[s]) {     // ë‚´ë¦¼ì°¨ìˆœ ì •ë ¬
 				int tmp = ary[t];
 				ary[t] = ary[s];
 				ary[s] = tmp;
@@ -56,7 +56,7 @@ int main()
 	}
 
 	for (int i = 0; i < N; i++) {
-		if ((ary[i] % 2) != 0) {	// 2·Î ³ª´©¾îÁöÁö ¾Ê´Â´Ù¸é => È¦¼ö
+		if ((ary[i] % 2) != 0) {	// 2ë¡œ ë‚˜ëˆ„ì–´ì§€ì§€ ì•ŠëŠ”ë‹¤ë©´ => í™€ìˆ˜
 			sum += ary[i];
 			min = ary[i];
 			cnt++;
@@ -65,7 +65,7 @@ int main()
 
 	cout << cnt << endl;
 
-	if (cnt == 0) {		// È¦¼ö°¡ ¾øÀ¸¸é
+	if (cnt == 0) {		// í™€ìˆ˜ê°€ ì—†ìœ¼ë©´
 		cout << "-1" << endl;
 	}
 	else {
