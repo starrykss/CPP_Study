@@ -16,7 +16,7 @@ int main()
 
 	for (int i = 0; i < n - 1; i++) {
 		for (int j = i + 1; j < n; j++) {
-			if (ary[j] < ary[i]) {		// ¿À¸§Â÷¼ø Á¤·Ä
+			if (ary[j] < ary[i]) {		// Â¿Ã€Â¸Â§Ã‚Ã·Â¼Ã¸ ÃÂ¤Â·Ã„
 				int tmp = ary[j];
 				ary[j] = ary[i];
 				ary[i] = tmp;
